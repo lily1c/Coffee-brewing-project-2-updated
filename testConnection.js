@@ -9,4 +9,8 @@ async function testDB() {
   } catch (err) {
     console.error("❌ DB connection error:", err);
   } finally {
-    await pool.end(
+    await pool.end();
+  }
+}
+
+testDB();
