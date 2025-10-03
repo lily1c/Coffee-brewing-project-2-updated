@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-09-30T00:00:00.000Z" agent="Mozilla/5.0" version="24.0.0" type="device">
+  <diagram name="Pokemon-ER-Diagram-Figure6.26" id="pokemon-pokedex-er-fig626">
+    <mxGraphModel dx="2200" dy="2400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="2400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- TITLE -->
+        <mxCell id="title" value="Pokémon Pokédex Database - E-R Diagram (Figure 6.26 Notation)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="20" width="600" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== POKEMON ENTITY (CENTER) ========== -->
+        <mxCell id="pokemon-entity" value="Pokemon" style="whiteSpace=wrap;html=1;align=center;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="900" y="400" width="120" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- Pokemon Attributes -->
+        <mxCell id="attr-pokedex-num" value="pokedex_number" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="680" y="307" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-pk-pokemon" edge="1" parent="1" source="attr-pokedex-num" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-name" value="name" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="815" y="267" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="attr-name" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-height" value="height" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="895" y="247" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="attr-height" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-weight" value="weight" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="975" y="247" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="attr-weight" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-base-exp" value="base_experience" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="267" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="attr-base-exp" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-capture" value="capture_rate" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="307" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="attr-capture" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-gender" value="gender_ratio" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="367" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="attr-gender" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-generation" value="generation" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="427" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="attr-generation" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-legendary" value="is_legendary" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="487" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="attr-legendary" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-egg-cycles" value="egg_cycles" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="695" y="367" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="attr-egg-cycles" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-happiness" value="base_happiness" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="680" y="427" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="attr-happiness" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="attr-growth" value="growth_rate" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="710" y="487" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge11" edge="1" parent="1" source="attr-growth" target="pokemon-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== TYPE ENTITY ========== -->
+        <mxCell id="type-entity" value="Type" style="whiteSpace=wrap;html=1;align=center;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="350" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="type-attr-id" value="type_id" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="307" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-type-id" edge="1" parent="1" source="type-attr-id" target="type-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="type-attr-name" value="type_name" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="407" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-type-name" edge="1" parent="1" source="type-attr-name" target="type-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="type-attr-color" value="color" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="85" y="267" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-type-color" edge="1" parent="1" source="type-attr-color" target="type-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== HAS_TYPE RELATIONSHIP ========== -->
+        <mxCell id="has-type-rel" value="has_type" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="362" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="has-type-attr" value="slot_number" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="467" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-hastype-attr" edge="1" parent="1" source="has-type-attr" target="has-type-rel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="edge-type-hastype" value="0..*" edge="1" parent="1" source="type-entity" target="has-type-rel" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" x="0" y="-10"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge-hastype-pokemon" value="1..2" edge="1" parent="1" source="has-type-rel" target="pokemon-entity" style="endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" x="0" y="-10"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- ========== ABILITY ENTITY ========== -->
+        <mxCell id="ability-entity" value="Ability" style="whiteSpace=wrap;html=1;align=center;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="350" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ability-attr-id" value="ability_id" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="287" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-ability-id" edge="1" parent="1" source="ability-attr-id" target="ability-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ability-attr-name" value="ability_name" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="367" width="110" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-ability-name" edge="1" parent="1" source="ability-attr-name" target="ability-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ability-attr-desc" value="description" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="437" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-ability-desc" edge="1" parent="1" source="ability-attr-desc" target="ability-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== HAS_ABILITY RELATIONSHIP ========== -->
+        <mxCell id="has-ability-rel" value="has_ability" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="362" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="has-ability-attr" value="is_hidden" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="467" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-hasability-attr" edge="1" parent="1" source="has-ability-attr" target="has-ability-rel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="edge-pokemon-hasability" value="1..*" edge="1" parent="1" source="pokemon-entity" target="has-ability-rel" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" x="0" y="-10"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge-hasability-ability" value="1..*" edge="1" parent="1" source="has-ability-rel" target="ability-entity" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" x="0" y="-10"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- ========== STATS ENTITY ========== -->
+        <mxCell id="stats-entity" value="Stats" style="whiteSpace=wrap;html=1;align=center;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="900" y="700" width="100" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="stats-attr-pk" value="pokedex_number" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="680" y="667" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-stats-pk" edge="1" parent="1" source="stats-attr-pk" target="stats-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="stats-attr-hp" value="hp" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="775" y="747" width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-stats-hp" edge="1" parent="1" source="stats-attr-hp" target="stats-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="stats-attr-atk" value="attack" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="795" y="807" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-stats-atk" edge="1" parent="1" source="stats-attr-atk" target="stats-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="stats-attr-def" value="defense" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="860" y="857" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-stats-def" edge="1" parent="1" source="stats-attr-def" target="stats-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="stats-attr-spatk" value="sp_attack" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="955" y="857" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-stats-spatk" edge="1" parent="1" source="stats-attr-spatk" target="stats-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="stats-attr-spdef" value="sp_defense" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="807" width="100" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-stats-spdef" edge="1" parent="1" source="stats-attr-spdef" target="stats-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="stats-attr-speed" value="speed" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="747" width="70" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-stats-speed" edge="1" parent="1" source="stats-attr-speed" target="stats-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="stats-attr-total" value="total" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="667" width="60" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-stats-total" edge="1" parent="1" source="stats-attr-total" target="stats-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Pokemon to Stats - Total Participation -->
+        <mxCell id="edge-pokemon-stats-1" value="1..1" edge="1" parent="1" source="pokemon-entity" target="stats-entity" style="strokeWidth=3;endArrow=classic;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" x="15" y="-50"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- ========== EVOLUTION ENTITY (WEAK) ========== -->
+        <mxCell id="evolution-entity" value="Evolution" style="whiteSpace=wrap;html=1;align=center;fontStyle=1;fontSize=14;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="450" y="700" width="120" height="50" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="evol-attr-stage" value="evolution_stage" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;dashPattern=1 4;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="265" y="637" width="130" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-evol-stage" edge="1" parent="1" source="evol-attr-stage" target="evolution-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="evol-attr-level" value="level_required" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="290" y="767" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-evol-level" edge="1" parent="1" source="evol-attr-level" target="evolution-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="evol-attr-method" value="method" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="827" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-evol-method" edge="1" parent="1" source="evol-attr-method" target="evolution-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="evol-attr-item" value="item_required" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="637" width="120" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-evol-item" edge="1" parent="1" source="evol-attr-item" target="evolution-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="evol-attr-condition" value="condition" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="605" y="777" width="90" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge-evol-condition" edge="1" parent="1" source="evol-attr-condition" target="evolution-entity">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- ========== EVOLVES_TO RELATIONSHIP ========== -->
+        <mxCell id="evolves-to-rel" value="evolves_to" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontStyle=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="650" y="712" width="120" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="edge-evol-evolvesto" value="0..1" edge="1" parent="1" source="evolution-entity" target="evolves-to-rel" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" x="0" y="-10"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge-evolvesto-pokemon" value="0..*" edge="1" parent="1" source="evolves-to-rel" target="pokemon-entity" style="endArrow=none;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxArray as="points">
+              <mxPoint x="810" y="742"/>
+              <mxPoint x="810" y="550"/>
+            </mxArray>
+            <mxPoint as="offset" x="15" y="0"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- ========== LEGEND ========== -->
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1500" width="900" height="280" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-title" value="Figure 6.26 E-R Notation - Design Documentation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="1520" width="500" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-text" value="Entity Sets: Rectangles (double border = weak entity)&#10;Attributes: Ovals (underline = primary key, dashed underline = discriminator)&#10;Relationships: Diamonds (double border = identifying relationship)&#10;Cardinality: Arrow = one, Line = many&#10;Participation: Double line = total, Single line = partial&#10;&#10;Entities (6): Pokemon, Type, Ability, Stats, Evolution(weak), EggGroup&#10;Relationships (5): has_type, has_ability, has_stats(1:1 total), evolves_to(identifying), belongs_to_group&#10;&#10;Design Decisions:&#10;• Type, Ability as entities eliminates redundancy&#10;• Evolution as weak entity - existence dependent on Pokemon&#10;• Stats separated for modularity with 1:1 total participation&#10;• Binary relationships used throughout for clarity" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1560" width="850" height="200" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
